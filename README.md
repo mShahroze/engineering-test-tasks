@@ -43,21 +43,19 @@ Your task is to answer some questions and complete the following tasks below - W
 
 With all tasks - **please add comments, utilise tests and submit clear instructions on running your solution.**
 
-## All Applicants
+Task 1 & 2 notes along with anything else you want to say can be placed in `NOTES.md`.
 
-### Task 1 (15 minutes). 
+## Task 1 (15 minutes)
 
  - Review the `eurocamp_api` database and make notes on the current structure and state of the database. How would you improve it using relational database best practices? We're mainly interested in how you would improve the database theoretically
 
-### Task 2 (10 minutes)
+## Task 2 (10 minutes)
 
 - Brief explanation of the latest practices in your respective field of expertise.
 
-<hr />
+## Task 3 (1 hour)
 
-## Senior Roles (1 hour)
-
-:warning: Please note that you should just picks the tasks that fit your specialisation e.g. .NET developer should choose` [.Net]` tasks. <i>Do not do all the tasks</i>
+:warning: Please note that you should just picks the tasks that fit your specialisation e.g. .NET developer should choose `[.Net]` tasks. <i>Do not do all the tasks</i>
 
 The API at localhost:3001 is what you will communicate with. It has 3 entity collections with various CRUD operations. 
 
@@ -65,19 +63,19 @@ However some of the endpoints do fail sometimes and return exceptions or 500 err
 
 <b>Please note we would appreciate Typescript being used.</b>
 
-### **[.Net Only] >> Task 1.**
+### **[.Net Only]**
 
 Create a .NET core client service that consumes the api (as seen on http://localhost:3001/api) and actions the api endpoints. This service should handle api failures or bad responses. 
 
 
-### **[Node Only] >> Task 1.**
+### **[Node Only]**
 
 Create a Node client service that consumes the api (as seen on http://localhost:3001/api) and actions the api endpoints. This service should handle api failures or bad responses. 
 
 An example of a test(s) is expected.
 
 
-### **[Frontend Only] >> Task 1.**
+### **[Frontend Only]**
 
 Using your favourite frontend framework please interact with the API and handle potential API failures.
 
